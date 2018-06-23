@@ -3,13 +3,16 @@ from keras.models import Sequential
 #import numpy as np
 #import os
 #import tensorflow as tf
+import sys
 import pandas as pd
 import glob
 from collections import defaultdict
 from sklearn import preprocessing
 import random
 
-path ='C:/Users/eshve/Desktop/PlayersTeams' # use your path
+custompath = sys.argv[1]
+print(custompath)
+path = custompath + 'PlayersTeams' # use your path
 allFiles2 = glob.glob(path + "/*.csv")
 frame2 = pd.DataFrame()
 listofteams_ = []
@@ -18,7 +21,7 @@ for file_ in allFiles2:
     smallist = []
     dr = pd.read_csv(file_, index_col=None, header=None, encoding = "ISO-8859-1")
     score = round(dr.iloc[:,1:2].values.sum(),2)
-    smallist.append(file_.replace('.csv','').replace('C:/Users/eshve/Desktop/PlayersTeams\\',''))
+    smallist.append(file_.replace('.csv','').replace(custompath + 'PlayersTeams\\',''))
     smallist.append(score)
     listofteams_.append(smallist)
 
@@ -26,7 +29,7 @@ dq = pd.DataFrame(listofteams_, columns=['Country','PlayerScore'])
 
 d = defaultdict(preprocessing.LabelEncoder)
 
-path2 ='C:/Users/eshve/Desktop/WorldCupHistorical' # use your path
+path2 =custompath + 'WorldCupHistorical' # use your path
 allFiles = glob.glob(path2 + "/*.csv")
 frame = pd.DataFrame()
 
@@ -73,7 +76,7 @@ df = ds
 print(df[0:5])
 df = df.apply(lambda x: d[x.name].fit_transform(x))
 
-dd = pd.read_csv("C:/Users/eshve/Desktop/Project/predict.csv",index_col=None, header=0)
+dd = pd.read_csv(custompath + 'predict.csv',index_col=None, header=0)
 dd = dd.iloc[:,[0,1,4,5]]
 dd = dd.apply(lambda x: d[x.name].fit_transform(x))
 
@@ -108,7 +111,7 @@ model.train_on_batch(x_train, y_train)
 predictions = model.predict(x_test, batch_size=32)
 #print(predictions)
 
-de = pd.read_csv("C:/Users/eshve/Desktop/Project/predict.csv",index_col=None, header=0)
+de = pd.read_csv(custompath + 'predict.csv',index_col=None, header=0)
 de = de.iloc[:,[0,5]]
 df = pd.DataFrame(predictions)
 dh = de.join(df)
