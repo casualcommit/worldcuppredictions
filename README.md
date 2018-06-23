@@ -1,0 +1,2 @@
+# worldcuppredictions
+This is a small project in python to try to predict results of group stage of World Cup and later maybe a winner. So far it looks alright since I don't have that much data. It had accuracy of around 60-65% so far based only on historical World Cup results from last 7 World Cups, national team results from last 10-15 games of each participant and past season whoscored results for each player participating.
