@@ -12,6 +12,8 @@ path ='C:/Users/eshve/Desktop/WorldCupHistorical' # use your path
 allFiles = glob.glob(path + "/*.csv")
 frame = pd.DataFrame()
 
+
+
 list_ = []
 for file_ in allFiles:
     df = pd.read_csv(file_,index_col=None, header=0)
