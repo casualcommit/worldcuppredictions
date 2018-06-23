@@ -1,0 +1,49 @@
+home,homeresult,scorehome,scoreaway,awayresult,away
+South Africa,D,1,1,D,Mexico
+Uruguay,D,0,0,D,France
+South Africa,L,0,3,W,Uruguay
+France,L,0,2,W,Mexico
+Mexico,L,0,1,W,Uruguay
+France,L,1,2,W,South Africa
+South Korea,W,2,0,L,Greece
+Argentina,W,1,0,L,Nigeria
+Argentina,W,4,1,L,South Korea
+Greece,W,2,1,L,Nigeria
+Nigeria,D,2,2,D,South Korea
+Greece,L,0,2,W,Argentina
+England,D,1,1,D,United States
+Algeria,L,0,1,W,Slovenia
+Slovenia,D,2,2,D,United States
+England,D,0,0,D,Algeria
+United States,W,1,0,L,Algeria
+Slovenia,L,0,1,W,England
+Serbia,L,0,1,W,Ghana
+Germany,W,4,0,L,Australia
+Germany,L,0,1,W,Serbia
+Ghana,D,1,1,D,Australia
+Australia,W,2,1,L,Serbia
+Ghana,L,0,1,W,Germany
+Netherlands,W,2,0,L,Denmark
+Japan,W,1,0,L,Cameroon
+Netherlands,W,1,0,L,Japan
+Cameroon,L,1,2,W,Denmark
+Denmark,L,1,3,W,Japan
+Cameroon,L,1,2,W,Netherlands
+Italy,D,1,1,D,Paraguay
+New Zealand,D,1,1,D,Slovakia
+Slovakia,L,0,2,W,Paraguay
+Italy,D,1,1,D,New Zealand
+Slovakia,W,3,2,L,Italy
+Paraguay,D,0,0,D,New Zealand
+Côte d'Ivoire,D,0,0,D,Portugal
+Brazil,W,2,1,L,North Korea
+Brazil,W,3,1,L,Côte d'Ivoire
+Portugal,W,7,0,L,North Korea
+Portugal,D,0,0,D,Brazil
+North Korea,L,0,3,W,Côte d'Ivoire
+Honduras,L,0,1,W,Chile
+Spain,L,0,1,W,Switzerland
+Chile,W,1,0,L,Switzerland
+Spain,W,2,0,L,Honduras
+Chile,L,1,2,W,Spain
+Switzerland,D,0,0,D,Honduras

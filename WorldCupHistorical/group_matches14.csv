@@ -1,0 +1,49 @@
+home,homeresult,scorehome,scoreaway,awayresult,away
+Brazil,W,3,1,L,Croatia
+Mexico,W,1,0,L,Cameroon
+Brazil,D,0,0,D,Mexico
+Cameroon,L,0,4,W,Croatia
+Cameroon,L,1,4,W,Brazil
+Croatia,L,1,3,W,Mexico
+Spain,L,1,5,W,Netherlands
+Chile,W,3,1,L,Australia
+Spain,L,0,2,W,Chile
+Australia,L,2,3,W,Netherlands
+Australia,L,0,3,W,Spain
+Netherlands,W,2,0,L,Chile
+Colombia,W,3,0,L,Greece
+Côte d'Ivoire,W,2,1,L,Japan
+Colombia,W,2,1,L,Côte d'Ivoire
+Japan,D,0,0,D,Greece
+Japan,L,1,4,W,Colombia
+Greece,W,2,1,L,Côte d'Ivoire
+Uruguay,L,1,3,W,Costa Rica
+England,L,1,2,W,Italy
+Uruguay,W,2,1,L,England
+Italy,L,0,1,W,Costa Rica
+Italy,L,0,1,W,Uruguay
+Costa Rica,D,0,0,D,England
+Switzerland,W,2,1,L,Ecuador
+France,W,3,0,L,Honduras
+Switzerland,L,2,5,W,France
+Honduras,L,1,2,W,Ecuador
+Honduras,L,0,3,W,Switzerland
+Ecuador,D,0,0,D,France
+Argentina,W,2,1,L,Bosnia-Herzegovina
+Iran,D,0,0,D,Nigeria
+Argentina,W,1,0,L,Iran
+Nigeria,W,1,0,L,Bosnia-Herzegovina
+Nigeria,L,2,3,W,Argentina
+Bosnia-Herzegovina,W,3,1,L,Iran
+Germany,W,4,0,L,Portugal
+Ghana,L,1,2,W,United States
+Germany,D,2,2,D,Ghana
+United States,D,2,2,D,Portugal
+United States,L,0,1,W,Germany
+Portugal,W,2,1,L,Ghana
+Belgium,W,2,1,L,Algeria
+Russia,D,1,1,D,South Korea
+Belgium,W,1,0,L,Russia
+South Korea,L,2,4,W,Algeria
+South Korea,L,0,1,W,Belgium
+Algeria,D,1,1,D,Russia

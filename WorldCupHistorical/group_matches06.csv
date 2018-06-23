@@ -1,0 +1,49 @@
+home,homeresult,scorehome,scoreaway,awayresult,away
+Germany,W,4,2,L,Costa Rica
+Poland,L,0,2,W,Ecuador
+Germany,W,1,0,L,Poland
+Ecuador,W,3,0,L,Costa Rica
+Ecuador,L,0,3,W,Germany
+Costa Rica,L,1,2,W,Poland
+England,W,1,0,L,Paraguay
+Trinidad and Tobago,D,0,0,D,Sweden
+England,W,2,0,L,Trinidad and Tobago
+Sweden,W,1,0,L,Paraguay
+Sweden,D,2,2,D,England
+Paraguay,W,2,0,L,Trinidad and Tobago
+Argentina,W,2,1,L,Côte d'Ivoire
+Serbia and Montenegro,L,0,1,W,Netherlands
+Argentina,W,6,0,L,Serbia and Montenegro
+Netherlands,W,2,1,L,Côte d'Ivoire
+Netherlands,D,0,0,D,Argentina
+Côte d'Ivoire,W,3,2,L,Serbia and Montenegro
+Mexico,W,3,1,L,Iran
+Angola,L,0,1,W,Portugal
+Mexico,D,0,0,D,Angola
+Portugal,W,2,0,L,Iran
+Portugal,W,2,1,L,Mexico
+Iran,D,1,1,D,Angola
+Italy,W,2,0,L,Ghana
+United States,L,0,3,W,Czech Republic
+Italy,D,1,1,D,United States
+Czech Republic,L,0,2,W,Ghana
+Czech Republic,L,0,2,W,Italy
+Ghana,W,2,1,L,United States
+Brazil,W,1,0,L,Croatia
+Australia,W,3,1,L,Japan
+Brazil,W,2,0,L,Australia
+Japan,D,0,0,D,Croatia
+Japan,L,1,4,W,Brazil
+Croatia,D,2,2,D,Australia
+France,D,0,0,D,Switzerland
+South Korea,W,2,1,L,Togo
+France,D,1,1,D,South Korea
+Togo,L,0,2,W,Switzerland
+Togo,L,0,2,W,France
+Switzerland,W,2,0,L,South Korea
+Spain,W,4,0,L,Ukraine
+Tunisia,D,2,2,D,Saudi Arabia
+Spain,W,3,1,L,Tunisia
+Saudi Arabia,L,0,4,W,Ukraine
+Saudi Arabia,L,0,1,W,Spain
+Ukraine,W,1,0,L,Tunisia
